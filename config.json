@@ -1,0 +1,13 @@
+{
+    "JWT_SECRET": "NodeApplication",
+    "oauth": {
+      "google": {
+        "clientID": "632030443111-gb8oigen46njd8vl3qeo4t7p0lok0mgf.apps.googleusercontent.com",
+        "clientSecret": "gW4bk5Ngbr1TNXgTPiWTSkpj"
+      },
+      "facebook": {
+        "clientID": "number",
+        "clientSecret": "string"
+      }
+    }
+  }

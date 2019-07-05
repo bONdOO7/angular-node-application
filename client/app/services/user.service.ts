@@ -20,6 +20,7 @@ export class UserService {
   private signupUrl = 'api/signup';
   private logoutUrl = 'api/logout';
   private profileUrl = 'api/profile';
+  private googleOauth = 'api/oauth/google';
   
   constructor(private apiService: ApiService) {
     const userdata = window.localStorage.getItem(this.USER_DATA_KEY);

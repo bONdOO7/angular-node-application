@@ -53,7 +53,17 @@ router.post('/signup', (req: any, res: any, next: any) => {
   }
 );
 
+router.get('/oauth/google', passport.authenticate('google', {
+  scope: ['profile', 'email']
+}));
+
+router.get('/auth/google/callback',passport.authenticate('google'));
+
 router.get('/profile', authentication.isLoggedIn, (req: any, res: any) => {
+  res.json(req.user);
+});
+
+router.get('/my_profile', authentication.isLoggedIn, (req: any, res: any) => {
   res.json(req.user);
 });
 

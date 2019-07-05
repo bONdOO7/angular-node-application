@@ -35,6 +35,10 @@ const appRoutes: Routes = [
     component: ProfileComponent
   },
   {
+    path: 'oauth/google',
+    component: ProfileComponent
+  },
+  {
     path: '**',
     component: CampgroundsComponent
   }

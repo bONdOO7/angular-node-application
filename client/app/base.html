@@ -5,6 +5,7 @@
         <div class='navbar-nav' *ngIf='!userdata'>
             <a class="nav-link nav-item" routerLink='/login' routerLinkActive='active'>Login</a>
             <a class="nav-link nav-item" routerLink='/signup' routerLinkActive='active'>Sign Up</a>
+            <a href="http://localhost:8080/api/oauth/google"><img src='https://cdn1.iconfinder.com/data/icons/social-media-set-for-free/32/google_-512.png' width="30" height="30" title='Sign in with Google'></a>
         </div>
         <div class='navbar-nav' *ngIf='userdata'>
             <a class='nav-link nav-item' href='#'> Signed In As {{userdata.username}}</a>
