@@ -24,7 +24,7 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.2.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-sanitizer": "^1.0.4",
     "express-session": "^1.15.6",
     "font-awesome": "^4.7.0",
